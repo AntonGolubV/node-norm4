@@ -1,0 +1,108 @@
+ul {
+  color: red;
+}
+.block{
+  width: 350px;
+  height: 450px;
+  border-color: 1px solid black;
+  background-color: gray;
+}
+.header{
+  height: 20%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.img{
+ width: 30%;
+ height: 100%;
+ background-color: blue;
+ display: flex;
+ flex-direction: column;
+}
+.name{
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.main{
+  width: 100%;
+  height: 70%;
+}
+.group{
+  width: 40%;
+  height: 10%;
+  margin-left: 15px;
+  margin-top: 5px;
+  font-size: 15px;
+}
+.main-alm{
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* display: flex; */
+  /* justify-content: space-between; */
+}
+.pokaz{
+  width: 22%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+}
+.main-img{
+  width: 60%;
+  height: 100%;
+}
+.text-img{
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+}
+.avg-grade{
+  width: 100%;
+  height: 15%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+}
+.grade{
+  width: 30%;
+  height: 100%;
+  color: aliceblue;
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-grade{
+  width: 70%;
+  height: 100%;
+  color: aliceblue;
+  font-size: 20px;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+}
+.stand-div{
+  width: 100%;
+  height: 10%;
+  color:aliceblue;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+.footer{
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  color: aliceblue;
+  font-size: 25px;
+  align-items: center;
+}
